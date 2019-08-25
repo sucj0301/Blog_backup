@@ -1,0 +1,22 @@
+ 下载cnpm：npm install -g cnpm --registry=https://registry.npm.taobao.org
+
+下载hexo：cnpm install -g hexo-cli
+
+创建blog文件
+
+初始化hexo：hexo init
+
+本地访问hexo：hexo s  进入localhost:4000
+
+创建博客文章：hexo new "文章题目"
+
+清理hexo：hexo clean
+
+创建hexo：hexo g
+
+下载hexo-deployer：cnpm install --save hexo-deployer-git
+
+部署到github：hexo d
+
+
+H:\Blog>npm install hexo-renderer-jade hexo-renderer-sass --save
